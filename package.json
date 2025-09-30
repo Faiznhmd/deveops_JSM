@@ -1,0 +1,21 @@
+{
+  "name": "deveops_jsm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faiznhmd/deveops_JSM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Faiznhmd/deveops_JSM/issues"
+  },
+  "homepage": "https://github.com/Faiznhmd/deveops_JSM#readme",
+  "description": ""
+}
