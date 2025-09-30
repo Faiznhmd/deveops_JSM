@@ -2,6 +2,7 @@ name: CI PIPELINE
 
 on:
   push:
+
   branches: [main]
 
 jobs:
@@ -10,15 +11,20 @@ jobs:
 
     steps:
       - name: Checkout code
+
         uses: actions/checkout@v5
 
       - name: Set up Node.jobs
+
         uses: actions/setup-node@v3
+
         with:
           node-version: 16
 
       - name: Install dependencies
+
         run: npm install
 
       - name: Run tests
+
         run: npm test
